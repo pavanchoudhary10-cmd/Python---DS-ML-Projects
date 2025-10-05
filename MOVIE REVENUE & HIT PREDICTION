@@ -1,0 +1,9 @@
+🎬 Movie Revenue & Hit Prediction Using Machine Learning
+
+I built an end-to-end ML pipeline to predict movie revenue and classify movies as hit or flop using a dataset of thousands of films. After cleaning and preprocessing the data—handling missing values, extracting genres, production companies, countries, and release dates—I performed extensive EDA, including correlations, scatterplots, and time-based trends. Key numerical features included budget, popularity, vote_count, runtime, and vote_average.
+
+Using LightGBM and RandomForest models, the regression model explained ~71% of revenue variance, with vote_count, budget, and popularity being the strongest predictors. The classification model achieved 77% accuracy, effectively balancing precision and recall for both hits and flops.
+
+🔑 Insights: Audience engagement metrics like vote count and popularity, along with budget, are the most influential factors in predicting success. Genre, production country, and release season play secondary roles. Feature importance plots provided a clear visual understanding of what drives revenue and movie hits.
+
+#MachineLearning #DataScience #Python #LightGBM #RandomForest #CatBoost #XGBoost #Movies #BoxOfficePrediction #FilmAnalytics #FeatureEngineering #PredictiveModeling #DataVisualization #AI #Analytics #MLProject
