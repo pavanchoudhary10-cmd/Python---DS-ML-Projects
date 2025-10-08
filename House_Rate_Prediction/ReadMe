@@ -1,0 +1,22 @@
+🚀 New ML Project Alert!
+
+I recently built a House Price Prediction Model using Python and Machine Learning — designed to estimate property prices based on key physical features like Building Area, Land Area, Bedrooms, Bathrooms, and Garage capacity.
+
+🔧 Tech Stack
+Python, Pandas, NumPy for data preprocessing
+Seaborn, Matplotlib for Exploratory Data Analysis
+Scikit-learn for ML model building (Random Forest Regressor)
+📊 Workflow Highlights
+
+1️⃣ Data Cleaning & Preparation — Renamed columns, handled missing values, and extracted meaningful features.
+2️⃣ EDA — Explored feature relationships using pair plots and correlation heatmaps.
+3️⃣ Model Training — Split dataset (80/20) and trained a RandomForestRegressor (n_estimators=200) for robust predictions.
+4️⃣ Evaluation — Measured performance using Mean Squared Error (MSE) and R² Score.
+5️⃣ Visualization — Compared actual vs predicted prices with scatter plots.
+6️⃣ Prediction — Generated price predictions for new houses with customizable input features.
+
+🧠 Key Takeaway
+
+Random Forest performed efficiently in predicting house prices by learning complex relationships between property attributes and market value.
+
+#MachineLearning #DataScience #Python #RandomForest #EDA #RealEstate #PredictiveAnalytics #MLProjects #Streamlit #DataVisualization #AIinRealEstate
