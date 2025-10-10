@@ -1,0 +1,21 @@
+🚀 Customer Churn Prediction using KNN + SMOTE
+
+I recently worked on a churn prediction model where the goal was to identify customers likely to leave a service. Using a dataset with features such as credit_score, age, tenure, balance, products_number, credit_card, active_member, and estimated_salary, I implemented a K-Nearest Neighbors (KNN) classifier.
+
+🔍 Key Steps:
+Performed Exploratory Data Analysis (EDA) to understand correlations and detect imbalances.
+Applied One-Hot Encoding for categorical variables and StandardScaler for numerical scaling.
+Handled class imbalance using SMOTE to synthetically oversample churn cases.
+Tuned hyperparameters (n_neighbors, weights, metric) using GridSearchCV for optimal F1-score.
+📊 Model Performance (After SMOTE + Tuning):
+Accuracy: 74.35%
+Churn Recall: 0.59 → improved from 0.34 before balancing
+F1-score (Churn): 0.48
+The model now identifies more at-risk customers, which is crucial for retention strategies.
+💡 Key Learnings:
+Balancing the dataset improved churn detection (recall) significantly.
+KNN’s performance is highly sensitive to scaling and class imbalance.
+SMOTE + hyperparameter tuning made a noticeable difference in model fairness.
+
+
+#MachineLearning #CustomerChurn #DataScience #KNN #SMOTE #EDA #ModelTuning #Python #AI #ChurnPrediction
