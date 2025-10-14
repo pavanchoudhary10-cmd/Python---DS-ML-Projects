@@ -1,0 +1,43 @@
+Credit_Card_Fraud_Detection
+
+In a world where millions of transactions happen every minute, detecting fraudulent activity is crucial. So, I took on a project to tackle this challenge using Machine Learning — and the results were truly eye-opening! 💳✨
+
+🔍 Here’s what I did:
+
+ ✅ Performed extensive EDA to uncover hidden patterns and outliers. 
+
+✅ Cleaned and preprocessed 28 anonymized transaction features (V1–V28) + Amount + Class. 
+
+✅ Balanced the highly skewed dataset using SMOTE to address class imbalance. 
+
+✅ Built a LightGBM model for fast and accurate fraud prediction. 
+
+✅ Evaluated with metrics like Precision, Recall, F1-score, and ROC-AUC for a fair assessment.
+
+
+
+📈 Highlights:
+
+Achieved strong detection capability on minority (fraud) class 💥
+
+Visualized key feature importance and distribution insights
+
+Learned how data imbalance can mislead even good models
+
+
+
+🧠 Tech Stack: Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | LightGBM | SMOTE
+
+
+
+Fraud detection isn’t just about accuracy — it’s about trust, responsibility, and impact. Every true positive here represents a real-world fraud prevented.
+
+MachineLearning 
+
+
+
+
+
+
+
+#DataScience #CreditCardFraud #EDA #LightGBM #Python #DataAnalytics #AI #FinancialSecurity #MLProjects #Kaggle
