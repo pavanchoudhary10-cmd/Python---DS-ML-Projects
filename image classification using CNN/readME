@@ -1,0 +1,40 @@
+Excited to share my latest hands-on project in Computer Vision, where I built a Convolutional Neural Network (CNN) model to classify images effectively using TensorFlow & Keras!
+
+🔹 Project Highlights:
+
+Preprocessed and reshaped image data (100×100 RGB images)
+
+Encoded categorical labels using LabelEncoder and to_categorical()
+
+Built a custom CNN architecture with:
+
+Conv2D + MaxPooling2D layers for feature extraction
+
+Flatten + Dense layers for classification
+
+Dropout for regularization and preventing overfitting
+
+Implemented data augmentation with ImageDataGenerator to enhance generalization
+
+Trained the model with 100 epochs, tuning batch size and validation strategy
+
+📊 Model Performance:
+
+Achieved strong accuracy and balance across classes (as shown in the classification report)
+
+Visualized model accuracy and loss trends for both training & validation
+
+Integrated continuous augmentation-based learning for improved robustness
+
+🧠 Tech Stack:
+Python, TensorFlow, Keras, NumPy, Pandas, Matplotlib, scikit-learn
+
+💡 Key Learnings:
+
+Importance of proper data reshaping and encoding in CNNs
+
+How augmentation boosts CNN generalization
+
+Balancing model complexity and overfitting using Dropout layers
+
+#DeepLearning #ComputerVision #CNN #TensorFlow #Keras #MachineLearning #DataScience #AI #ImageClassification #Python #ArtificialIntelligence #NeuralNetworks
