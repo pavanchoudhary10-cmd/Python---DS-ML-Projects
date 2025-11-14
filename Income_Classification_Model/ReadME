@@ -1,0 +1,57 @@
+recently completed an exciting ML project where I built an Income Classification Model to predict whether an individual earns more than $50,000/year using demographic and socio-economic data.
+
+What started as a simple classification problem quickly turned into a deep exploration of how education, experience, work hours, and personal circumstances influence earning potential in the real world.
+
+🔍 Key Insights from the Data
+
+Here’s what the data revealed:
+
+🔹 Education is the strongest predictor of high income.
+🔹 Individuals between 30–55 years dominate the >50K bracket.
+🔹 Capital gains (investments) play a major role in higher earnings.
+🔹 Working 40+ hours/week significantly increases income likelihood.
+🔹 Married individuals are far more represented in the high-income group.
+🔹 A visible gender gap still persists in income distribution.
+
+These patterns reflect real socio-economic trends that influence earning power beyond just job roles.
+
+🤖 Model Building & Optimization
+
+I developed and compared two models:
+
+1️⃣ Random Forest (Baseline)
+✔️ Accuracy: 86%
+❌ Recall for >50K: 0.64
+
+2️⃣ XGBoost + SMOTE (Tuned for Recall)
+✔️ Recall for >50K: 0.93
+✔️ Best at identifying high-income individuals
+⚠️ Slight dip in accuracy (78%), but worth it for real-world use cases
+
+Why focus on recall?
+👉 In scenarios like HR analytics, financial targeting, or policy planning, missing a true high-income individual is more costly than a few false positives.
+
+🌟 Feature Importance
+
+Top factors influencing income:
+
+1️⃣ Education Level
+2️⃣ Capital Gains
+3️⃣ Age
+4️⃣ Hours Worked per Week
+5️⃣ Marital Status
+6️⃣ Occupation
+7️⃣ Gender
+8️⃣ Country
+
+Understanding these variables helps drive data-informed decisions in workforce strategy, policy design, and economic analysis.
+
+🎯 Final Reflection
+
+This project reinforced how machine learning can uncover hidden socio-economic patterns and support more equitable, informed decision-making in society.
+
+If you'd like to explore the full analysis, modeling code, or visualizations, I’d be happy to share!
+
+🔖 Hashtags
+
+#MachineLearning #DataScience #AI #XGBoost #SMOTE #ClassificationModel #DataAnalytics #StorytellingWithData #MLProject #LinkedInLearners #CareerInData #BusinessIntelligence #DataDriven
